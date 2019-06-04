@@ -1,0 +1,26 @@
+body{
+    margin:0 auto;
+}
+/*menu topo*/
+.menuGl {
+	display:block;
+}
+
+.menuGl ul{
+    list-style :none;
+    top:-20px;
+	left:300px;
+}
+
+.menuGl li{
+    display:inline;
+}
+
+div#gsTopo{
+    display: block;
+}
+
+/* header */ 
+.headerGE{
+    background-color:#3b9c00;
+}
