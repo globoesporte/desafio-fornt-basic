@@ -24,3 +24,16 @@ div#gsTopo{
 .headerGE{
     background-color:#3b9c00;
 }
+
+.lista-jogadores{
+    padding: 10px;
+}
+
+td, th { border: 1px solid #111; padding: 6px; }
+th { font-weight: 700; }
+
+.barra-atleta{
+    border-right: hidden;
+    border-top: hidden;
+    border-left: hidden;
+}
