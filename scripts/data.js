@@ -3,7 +3,7 @@ var data = {
       {
         "id": 1481,
         "name": "Alisson",
-        "atleta-img": "alisson.png",
+        "atleta_imagem": "alisson.png",
         "date": "1/2/1995",
         "position": "Goleiro",
         "games": 30,
@@ -17,7 +17,7 @@ var data = {
       {
         "id": 1482,
         "name": "Fagner",
-        "atleta-img": "fagner.png",
+        "atleta_imagem": "fagner.png",
         "date": "21/10/1995",
         "position": "Lateral-direito",
         "games": 7,
@@ -32,7 +32,7 @@ var data = {
         "conversation": "2",
         "id": 1483,
         "name": "Thiago Silva",
-        "atleta-img": "thiago-silva.png",
+        "atleta_imagem": "thiago-silva.png",
         "date": "10/1/1992",
         "position": "Zagueiro",
         "games": 75,
@@ -46,7 +46,7 @@ var data = {
       {
         "id": 1484,
         "name": "Miranda",
-        "atleta-img": "miranda.png",
+        "atleta_imagem": "miranda.png",
         "date": "12/10/1997",
         "position": "Zagueiro",
         "games": 51,
@@ -60,7 +60,7 @@ var data = {
       {
         "id": 1485,
         "name": "Marcelo",
-        "atleta-img": "marcelo.png",
+        "atleta_imagem": "marcelo.png",
         "date": "21/3/1997",
         "position": "Lateral-esquerdo",
         "games": 58,
@@ -74,7 +74,7 @@ var data = {
       {
         "id": 1486,
         "name": "Fernandinho",
-        "atleta-img": "fernandinho.png",
+        "atleta_imagem": "fernandinho.png",
         "date": "25/4/1992",
         "position": "Volante",
         "games": 48,
@@ -88,7 +88,7 @@ var data = {
       {
         "id": 1487,
         "name": "Paulinho",
-        "atleta-img": "paulinho.png",
+        "atleta_imagem": "paulinho.png",
         "date": "22/8/1995",
         "position": "Meio-campo",
         "games": 54,
@@ -102,7 +102,7 @@ var data = {
       {
         "id": 1488,
         "name": "Philippe Coutinho",
-        "atleta-img": "philippe-coutinho.png",
+        "atleta_imagem": "philippe-coutinho.png",
         "date": "21/6/1996",
         "position": "Meio-campo",
         "games": 40,
@@ -117,7 +117,7 @@ var data = {
         "conversation": "4",
         "id": 1489,
         "name": "Neymar",
-        "atleta-img": "neymar.png",
+        "atleta_imagem": "neymar.png",
         "date": "11/9/1980",
         "position": "Atacante",
         "games": 89,
@@ -131,7 +131,7 @@ var data = {
       {
         "id": 1502,
         "name": "Willian",
-        "atleta-img": "willian.png",
+        "atleta_imagem": "willian.png",
         "date": "12/7/1980",
         "position": "Atacante",
         "games": 61,
@@ -145,8 +145,8 @@ var data = {
       {
         "conversation": "6",
         "id": 1490,
-        "name": "gabriel-jesus",
-        "atleta-img": "Gabriel Jesus.png",
+        "name": "Gabriel Jesus",
+        "atleta_imagem": "Gabriel Jesus.png",
         "date": "13/1/1980",
         "position": "Atacante",
         "games": 21,
@@ -160,7 +160,7 @@ var data = {
       {
         "id": 1491,
         "name": "Courtois",
-        "atleta-img": "courtois.png",
+        "atleta_imagem": "courtois.png",
         "date": "21/1/1992",
         "position": "Goleiro",
         "games": 62,
@@ -174,7 +174,7 @@ var data = {
       {
         "id": 1492,
         "name": "Meunier",
-        "atleta-img": "meunier.png",
+        "atleta_imagem": "meunier.png",
         "date": "22/2/1993",
         "position": "Ala-direito",
         "games": 28,
@@ -188,7 +188,7 @@ var data = {
       {
         "id": 1493,
         "name": "Alderweireld",
-        "atleta-img": "alderweireld.png",
+        "atleta_imagem": "alderweireld.png",
         "date": "23/3/1994",
         "position": "Zagueiro",
         "games": 80,
@@ -203,7 +203,7 @@ var data = {
         "conversation": "3",
         "id": 1494,
         "name": "Kompany",
-        "atleta-img": "kompany.png",
+        "atleta_imagem": "kompany.png",
         "date": "24/4/1991",
         "position": "Zagueiro",
         "games": 79,
@@ -217,7 +217,7 @@ var data = {
       {
         "id": 1495,
         "name": "Carrasco",
-        "atleta-img": "carrasco.png",
+        "atleta_imagem": "carrasco.png",
         "date": "1/5/1992",
         "position": "Ala-esquerdo",
         "games": 29,
@@ -231,7 +231,7 @@ var data = {
       {
         "id": 1496,
         "name": "Vertonghen",
-        "atleta-img": "vertonghen.png",
+        "atleta_imagem": "vertonghen.png",
         "date": "2/6/1993",
         "position": "Zagueiro",
         "games": 105,
@@ -245,7 +245,7 @@ var data = {
       {
         "id": 1497,
         "name": "Witsel",
-        "atleta-img": "witsel.png",
+        "atleta_imagem": "witsel.png",
         "date": "3/7/1994",
         "position": "Volante",
         "games": 93,
@@ -259,7 +259,7 @@ var data = {
       {
         "id": 1498,
         "name": "De Bruyne",
-        "atleta-img": "de-druyne.png",
+        "atleta_imagem": "de-druyne.png",
         "date": "4/3/1995",
         "position": "Meio-campo",
         "games": 65,
@@ -273,7 +273,7 @@ var data = {
       {
         "id": 1499,
         "name": "Hazard",
-        "atleta-img": "hazard.png",
+        "atleta_imagem": "hazard.png",
         "date": "5/2/1991",
         "position": "Atacante",
         "games": 89,
@@ -288,7 +288,7 @@ var data = {
         "conversation": "5",
         "id": 1500,
         "name": "Mertens",
-        "atleta-img": "mertens.png",
+        "atleta_imagem": "mertens.png",
         "date": "7/1/1992",
         "position": "Atacante",
         "games": 73,
@@ -302,7 +302,7 @@ var data = {
       {
         "id": 1501,
         "name": "Lukaku",
-        "atleta-img": "lukaku.png",
+        "atleta_imagem": "lukaku.png",
         "date": "10/5/1993",
         "position": "Atacante",
         "games": 72,

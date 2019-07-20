@@ -9,10 +9,17 @@ $(document).ready(function(){
         data.players.forEach(function (value, i) {
             let nomeJogador = data.players[i].name;
             let textoDigitado = $('input.barra-atleta').val();
-            if(nomeJogador.includes(textoDigitado)){
+            let img_avatar = data.players[i].atleta_imagem;
+            console.log(img_avatar);
+
+            if(nomeJogador.includes(textoDigitado) || 
+                nomeJogador.includes(textoDigitado.toUpperCase()) ||
+                nomeJogador.includes(textoDigitado.toLowerCase())){
                 value = nomeJogador;
                 console.log('%d: %s', i, value);
-                $('table.lista-jogadores').append('<tr> <td>'+ nomeJogador +'</td> '+
+                $('table.lista-jogadores').append('<tr> <td class="nome-jogador">'+
+                    '<img src="assets/images/avatars/'+ img_avatar +'"> '+
+                   '<strong>'+ nomeJogador +'</strong> </td> '+
                 '<td>' + data.players[i].date + '</td>'+
                 '<td>' + data.players[i].team.sigla + '</td>'+
                 '<td>' + data.players[i].games + '</td>'+
@@ -26,7 +33,7 @@ $(document).ready(function(){
 
     //sorter
     var table = $('table.lista-jogadores');
-    $('th.nasc_header').add('th.games_header').add('th.goals_header').click(function(){
+    $('th > ins').click(function(){
         var table = $(this).parents('table.lista-jogadores').eq(0);
         var ths = table.find('tr:gt(0)').toArray().sort(compare($(this).index())); //pega tudo abaixo do th selecionado
         this.asc = !this.asc;
