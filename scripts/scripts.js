@@ -33,7 +33,7 @@ $(document).ready(function(){
 
     //sorter
     var table = $('table.lista-jogadores');
-    $('th > ins').click(function(){
+    $('th').children().click(function(){
         var table = $(this).parents('table.lista-jogadores').eq(0);
         var ths = table.find('tr:gt(0)').toArray().sort(compare($(this).index())); //pega tudo abaixo do th selecionado
         this.asc = !this.asc;
