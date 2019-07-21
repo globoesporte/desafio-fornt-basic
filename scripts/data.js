@@ -1,3 +1,4 @@
+//houve renomeação do campo atleta-img
 var data = {
     "players": [
       {
